@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contactf{
+    display: flex;
+    padding-top: 40px;
+padding-bottom: 40px;
+justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-image: url(../../images/table.jpeg) !important;
+    background-size: cover;
+    padding-top: 10px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(102, 102, 213, 0.812);
+   margin-top: 150px;
+  justify-content: center;
+   align-items: center;
+   opacity: 50%;
+    width: 600px;
+  gap: 10px;  
+}
+.message{
+    height:95px !important ;
+    border-radius: 10px;
+}
+.nom{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    
+}
+.cartcont{
+    display: flex;
+    background-color: beige;
+}
+.lb{
+    color: black;
+}

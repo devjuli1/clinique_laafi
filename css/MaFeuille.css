@@ -1,0 +1,197 @@
+body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+.CorpPage{
+    margin: 0px;
+    /* padding: 0px; */
+}
+.LienNav{
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+.barnav{
+    width: 100%;
+}
+.logo{
+    height: 50px !important;
+    border-radius: 15px;
+}
+.Noir{
+    color: black !important;
+}
+.bleu{
+    color: blue;
+    font-size: 18px;
+}
+.blanc{
+    color: white;
+}
+.ImgAccueil{
+    height: 650px;
+}
+.DivTitre{
+    text-align: center;
+    justify-content: center;
+}
+.TitreSection{
+    font-weight: bold;
+    font-size: 4rem !important;
+}
+.CentrSection{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.SectionDomaine{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(179, 171, 160);
+}
+.TroisD{
+    /* width: 80px; */
+    height: 350px;
+}
+
+.TroisD {
+    transition: 1s;
+    transition: 1s;
+}
+
+.TroisD:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+}
+
+@media screen and (max-width:920px) {
+    .lgn1Foot {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .DivTelMail {
+        align-items: center;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }}
+
+/* FOOTER */
+.footer {
+    position: relative;
+    /* background-image: url(../images/agencement-interieur-cabinet-dentaire.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px !important;
+    background-color: rgba(3, 3, 3, 0.857);
+    height: fit-content;
+}
+
+
+
+.lgn1Foot {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.svlg {
+    width: 100% !important;
+}
+
+.CoteGauche {
+    width: 48%;
+    margin-left: 15px;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.LogoPrprtes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    width: 100%;
+}
+
+.lgo {
+    max-width: 200px;
+}
+
+.L1Gche {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    /* background-color: rgba(255, 0, 0, 0.241); */
+}
+
+.DivTelMail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 400px;
+    align-items: start;
+    /* background-color: rgba(0, 0, 0, 0.565); */
+}
+
+.L1droite {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: fit-content;
+    min-width: 250px;
+    height: fit-content;
+}
+
+.LiensFoot {
+
+    font-size: 28px;
+    font-weight: 200;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.twt {
+    border-radius: 55px;
+}
+
+.LgnSuiv {
+    margin-top: 16px;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.FlouNoir {
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    /* padding: 0px;
+  margin: 0px; */
+    background-color: rgba(0, 0, 0, 0.48);
+}
+/* FIN FOOTER */

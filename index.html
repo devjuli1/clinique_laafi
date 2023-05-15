@@ -11,87 +11,140 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Style -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styleNavbar.css">
+  <link rel="stylesheet" href="css/MaFeuille.css">
   <title>Clinique Laafi</title>
 </head>
 
 <body>
-
-
-  <div class="site-mobile-menu site-navbar-target">
-    <div class="site-mobile-menu-header">
-      <div class="site-mobile-menu-close mt-3">
-        <span class="icon-close2 js-menu-toggle"></span>
-      </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
-  </div>
-
-
-  <div class="site-navbar-wrap">
-    <div class="site-navbar-top">
-      <div class="container py-3">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <div class="d-flex mr-auto">
-              <a href="#" class="d-flex align-items-center mr-4">
-                <span class="icon-envelope mr-2"></span>
-                <span class="d-none d-md-inline-block">cliniquelaafi@gmail.com</span>
-              </a>
-              <a href="#" class="d-flex align-items-center mr-auto">
-                <span class="icon-phone mr-2"></span>
-                <span class="d-none d-md-inline-block">+226 01-02-03-04</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-6 text-right">
-            <div class="mr-auto">
-              <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-            </div>
-
+  <div class="container-fluid">
+    <nav class="barnav">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
           </div>
         </div>
+        <div class="site-mobile-menu-body"></div>
       </div>
-    </div>
 
-    <div class="site-navbar site-navbar-target js-sticky-header">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-2">
-            <h1 class="my-0 site-logo"><a href="index.html">Brand</a></h1>
-          </div>
-          <div class="col-10">
-            <nav class="site-navigation text-right" role="navigation">
-              <div class="container">
-                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
-                    class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
 
-                <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
-                  <li class="active"><a href="#home-section" class="nav-link">Accueil</a></li>
-                  <li><a href="#classes-section" class="nav-link">Qui sommes nous?</a></li>
-                  <li class="has-children">
-                    <a href="#" class="nav-link">Domaines d'intervention</a>
-                    <ul class="dropdown arrow-top">
-                      <li><a href="#" class="nav-link">Maternité</a></li>
-                      <li><a href="#" class="nav-link">Chirurgie</a></li>
-                      <li><a href="#" class="nav-link">Pédiatrie</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#about-section" class="nav-link">Nous contacter</a></li>
-                  <!-- <li><a href="#contact-section" class="nav-link">Contact</a></li> -->
-                </ul>
+      <div class="site-navbar-wrap">
+        <div class="site-navbar-top">
+          <div class="container py-3">
+            <div class="row align-items-center">
+              <div class="col-6">
+                <div class="d-flex mr-auto">
+                  <a href="#" class="d-flex align-items-center mr-4">
+                    <span class="icon-envelope mr-2"></span>
+                    <span class="d-none d-md-inline-block bleu">cliniquelaafi@gmail.com</span>
+                  </a>
+                  <a href="#" class="d-flex align-items-center mr-auto">
+                    <span class="icon-phone mr-2"></span>
+                    <span class="d-none d-md-inline-block bleu">+226 01-02-03-04</span>
+                  </a>
+                </div>
               </div>
-            </nav>
+              <div class="col-6 text-right">
+                <div class="mr-auto">
+                  <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
+                  <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-navbar site-navbar-target js-sticky-header">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <h1 class="my-0 site-logo"><a href="index.html"> <img class="logo" src="images/logop.png" alt=""> </a>
+                </h1>
+              </div>
+              <div class="col-10">
+                <nav class="site-navigation text-right" role="navigation">
+                  <div class="container">
+                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
+                        class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a>
+                    </div>
+
+                    <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                      <li class="active"><a href="index.html" class="nav-link LienNav">Accueil</a></li>
+                      <li><a href="Pages/Presentation.html" class="nav-link LienNav Noir">Qui sommes nous?</a></li>
+                      <li class="has-children">
+                        <a href="#" class="nav-link LienNav Noir">Domaines d'intervention</a>
+                        <ul class="dropdown arrow-top">
+                          <li><a href="Pages/materite.html" class="nav-link LienNav Noir">Maternité</a></li>
+                          <li><a href="Pages/chirurgie.html" class="nav-link LienNav Noir">Chirurgie</a></li>
+                          <li><a href="Pages/pediatrie.html" class="nav-link LienNav Noir">Pédiatrie</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="Pages/contact.html" class="nav-link LienNav Noir">Nous contacter</a></li>
+                      <!-- <li><a href="#contact-section" class="nav-link">Contact</a></li> -->
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </nav>
+    <!-- <div class="hero" style="background-image: url('images/tampon.jpg');"></div> -->
+    <div class="row"> <img src="images/tampon.jpg" class=" ImgAccueil col-12" alt=""></div>
+    <div class="SectionDomaine">
+      <div class="row DivTitre">
+        <h1 class="col-lg-8 col-md-8 TitreSection Noir"> Domaine d'intervention</h1>
+      </div>
+
+      <div class="col-md-12 col-lg-12 col-sm-12 CentrSection">
+        <img src="images/Dom maternite.png" class="TroisD" alt="">
+        <img src="images/Dom chirurgie.png" class="TroisD" alt="">
+        <img src="images/Dom pediatrie.png" class="TroisD" alt="">
+      </div>
+
     </div>
   </div>
 
 
-  <div class="hero" style="background-image: url('images/hero_1.jpg');"></div>
-
+<!-- FOOTER -->
+    <div class="container-fluid text-center footer">
+      <div class="FlouNoir">
+        <div class="row align-items-center">
+          <div class="LogoPrprtes">
+            <div class="container-fluid ">
+              <div class="col-lg-4 col-md-12 col-sm-12 ">
+                <img class="lgo" src="images/logo.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class=" lgn1Foot">
+            <div class="CoteGauche">
+              <div class="L1Gche">
+                <div class="DivTelMail">
+                  <p class="LiensFoot">Telephonne: 07-07-07-07</p>
+                  <p class="LiensFoot">Email: cliniquelaafi.@gmail.com</p>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <div class="LgnSuiv row align-item-center justify-content-center">
+            <h1 class="blanc svlg"><strong> Suivez nous. </strong></h1>
+            <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+              <a target="_blank" href="pages/facebook.html"> <i class="fa-brands fa-square-facebook fa-shake icon"
+                  style="color: #ffffff;"></i></a>
+              <a target="_blank" href="pages/tweter.html"><i class="fa-brands fa-square-twitter fa-shake icon"
+                  style="color: #ffffff;"></i></a>
+              <a href="pages/linkdin.html"><i class="fa-brands fa-linkedin fa-shake icon" style="color: #ffffff;"></i></a>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
 
 
   <script src="js/jquery-3.3.1.min.js"></script>
